@@ -7,7 +7,7 @@
   <img src="./pop_perc.png" alt="Infant Mortality in South Carolina" width="600"/>
 </p>
 
-This GIS project visualizes public health and demographic data at the county level across South Carolina. Using 2010 U.S. Census data and infant mortality records from SC DHEC, the project creates a series of dot density and choropleth maps, including an inset map of health regions.
+This GIS project visualizes public health and demographic data at the county level across South Carolina. Using 2010 U.S. Census data and infant mortality records from SC DHEC, the project creates a series of dot density and choropleth maps, including an inset map of health regions. The maps reveal important correlations between racial demographics and health outcomes, particularly highlighting disparities in infant mortality rates across different communities.
 
 ---
 
@@ -66,6 +66,17 @@ This GIS project visualizes public health and demographic data at the county lev
 - Counties with the **highest percentage of Black or African American populations** are concentrated in the central and eastern parts of the state.
 - **Infant mortality rates** varied significantly across counties, with some rural areas showing higher rates than urban centers.
 - **Dot density mapping** provided intuitive visuals for raw population counts, while **normalized choropleth maps** revealed relative densities and disparities.
+
+## Race and Infant Mortality Analysis
+
+The analysis reveals significant correlations between racial demographics and health outcomes in South Carolina:
+
+- Counties with higher percentages of Black or African American populations show elevated infant mortality rates
+- This pattern suggests persistent health disparities that may be influenced by:
+  - Limited access to healthcare facilities in rural areas
+  - Socioeconomic factors affecting maternal and infant health
+  - Historical and systemic barriers to healthcare access
+- The visualization of these patterns through both dot density and choropleth mapping helps identify areas that may require targeted healthcare interventions and resources
 
 ---
 

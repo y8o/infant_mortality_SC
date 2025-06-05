@@ -23,13 +23,16 @@
       flex: 2;
       height: 100%;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       background: #111;
+      gap: 20px;
+      padding: 20px;
     }
     .image-viewer img {
       max-width: 100%;
-      max-height: 100%;
+      max-height: 45%;
       object-fit: contain;
     }
     .sidebar {
@@ -72,11 +75,15 @@
 <body>
   <div class="container">
     <div class="image-viewer">
-      <img src="./health_data_map.jpg" alt="Mapping Health Data in South Carolina">
+      <img src="./imr_sc.png" alt="Infant Mortality in South Carolina">
+      <img src="./pop_perc.png" alt="Population Percentage by Race in South Carolina">
     </div>
     <div class="sidebar">
       <h1>Mapping Health Data</h1>
       <p>This project maps racial population percentages and infant mortality rates by county across South Carolina using U.S. Census and SC DHEC data.</p>
+
+      <h2>Race and Infant Mortality</h2>
+      <p>The data reveals significant correlations between racial demographics and infant mortality rates in South Carolina. Counties with higher percentages of Black or African American populations tend to show elevated infant mortality rates, highlighting persistent health disparities. This pattern suggests the need for targeted healthcare interventions and resources in these communities.</p>
 
       <h2>Tools Used</h2>
       <span class="tag">ArcGIS</span>
@@ -89,17 +96,16 @@
       <h2>Key Insights</h2>
       <ul>
         <li>Racial percentages vary significantly by county, particularly for Black or African American populations.</li>
-        <li>Infant mortality rates are elevated in several rural counties.</li>
+        <li>Infant mortality rates are elevated in several rural and racialized counties.</li>
         <li>Dot density maps provide spatial intuition for total population.</li>
         <li>Choropleth maps reveal normalized disparities more effectively.</li>
-        <li>Custom legend formatting and inset mapping enhance clarity.</li>
       </ul>
 
       <h2>Included Maps</h2>
       <ul>
-        <li>Racial Population Percentage (D003–D009)</li>
         <li>Infant Mortality Rates (2004–2008)</li>
         <li>DHEC Region Inset Map</li>
+        <li>Racial Population Percentage (D003–D009)</li>
       </ul>
     </div>
   </div>
