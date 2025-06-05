@@ -1,7 +1,7 @@
-# Mapping Health Data in South Carolina
+# Mapping Infant Mortality in South Carolina
 
 <p align="center">
-  <img src="./health_data_map.jpg" alt="Mapping Health Data in South Carolina" width="600"/>
+  <img src="./imr_sc.png" alt="Infant Mortality in South Carolina" width="600"/>
 </p>
 
 This GIS project visualizes public health and demographic data at the county level across South Carolina. Using 2010 U.S. Census data and infant mortality records from SC DHEC, the project creates a series of dot density and choropleth maps, including an inset map of health regions.
@@ -66,18 +66,7 @@ This GIS project visualizes public health and demographic data at the county lev
 
 ---
 
-## Deliverables
-
-- Two map layouts:
-  1. Racial population percentage map with customized legend
-  2. Infant mortality rate map with inset region boundaries
-- Joined and exported shapefiles: `countypop.shp`, `countyimr.shp`
-- Data tables: `PL_P1.txt` (Census) and `scan0408.txt` (DHEC)
-- `.mxd` map document saved throughout the process
-
----
-
 ## Date
 
 September 2023  
-Created by: Anish Verma
+Created by: Oscar Babin
