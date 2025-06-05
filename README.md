@@ -3,6 +3,9 @@
 <p align="center">
   <img src="./imr_sc.png" alt="Infant Mortality in South Carolina" width="600"/>
 </p>
+<p align="center">
+  <img src="./pop_perc.png" alt="Infant Mortality in South Carolina" width="600"/>
+</p>
 
 This GIS project visualizes public health and demographic data at the county level across South Carolina. Using 2010 U.S. Census data and infant mortality records from SC DHEC, the project creates a series of dot density and choropleth maps, including an inset map of health regions.
 
